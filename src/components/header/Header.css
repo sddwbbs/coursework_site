@@ -7,7 +7,8 @@
     column-gap: 30px;
     align-items: center;
     justify-content: space-between;
-    background-color: #333333da;
+    /* background-color: #333333da; */
+    background-color: rgba(51, 51, 51, 0.8);
     border-radius: 15px;
     color: white;
 }

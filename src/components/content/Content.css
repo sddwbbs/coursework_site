@@ -1,0 +1,9 @@
+.content__show {
+    /* background-color: #3333335f; */
+    background-color: rgba(51, 51, 51, 0.6);
+    border-radius: 15px;
+}
+
+.content {
+    display: none;
+}
