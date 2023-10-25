@@ -1,5 +1,5 @@
 .header {
-    padding: 46px 0 56px;
+    padding: 16px 0 56px;
 }
 
 .header__row {
@@ -7,6 +7,22 @@
     column-gap: 30px;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #333333da;
+    border-radius: 15px;
     color: white;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header__text {
+    color: white;
+    font-size: 20px;
+}
+
+.header__btn {
+    margin-right: 15px;
 }
