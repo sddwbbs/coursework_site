@@ -1,7 +1,7 @@
 {
   "name": "coursework_site",
   "version": "0.1.0",
-  "homepage": "https://sddwbbs.github.io/coursework_site",
+  "homepage": "https://sddwbbs.github.io/coursework-site",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
