@@ -18,9 +18,8 @@
 }
 
 .header__logo {
-    display: flex;
-    align-items: center;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .header__text {
@@ -30,4 +29,5 @@
 
 .header__btn {
     margin-right: 15px;
+    cursor: pointer;
 }
