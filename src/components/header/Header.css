@@ -1,5 +1,9 @@
 .header {
-    padding: 16px 0 56px;
+    padding: 16px 0 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header__row {
