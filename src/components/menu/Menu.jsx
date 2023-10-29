@@ -10,7 +10,32 @@ function Menu({ isOpen, onClose }) {
   
     return (
       <div className="menu" style={menuStyles}>
-        <button onClick={onClose}>Закрыть меню</button>
+        <button className="menu__btn" onClick={onClose}> × </button>
+        <div className="menu__content">
+            <ul className="menu__list">
+            <li className="item">Пункт 1
+                <ul className="menu__sublist">
+                <li className="subitem">Подпункт 1</li>
+                <li className="subitem">Подпункт 2</li>
+                <li className="subitem">Подпункт 3</li>
+                </ul>
+            </li>
+            <li className="item">Пункт 2
+                <ul className="menu__sublist">
+                <li className="subitem">Подпункт 1</li>
+                <li className="subitem">Подпункт 2</li>
+                <li className="subitem">Подпункт 3</li>
+                </ul>
+            </li>
+            <li className="item">Пункт 3
+                <ul className="menu__sublist">
+                <li className="subitem">Подпункт 1</li>
+                <li className="subitem">Подпункт 2</li>
+                <li className="subitem">Подпункт 3</li>
+                </ul>
+            </li>
+            </ul>
+        </div>
       </div>
     );
   }

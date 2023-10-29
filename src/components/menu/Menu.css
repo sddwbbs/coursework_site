@@ -1,7 +1,3 @@
-  button {
-    margin-top: 10px;
-  }
-
   .menuBackdrop {
     position: fixed;
     top: 0;
@@ -34,5 +30,34 @@
     border-radius: 15px;
   }
   
-  
+  .menu__btn {
+    display: flex;
+    font-size: 50px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .menu__btn:hover {
+    color: red;
+  }
+
+  .menu__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item {
+    font-size: 20px;
+    color: white;
+  }
+
+  .menu__sublist {
+    font-size: 15px;
+    margin-left: 15px;
+  }
   
